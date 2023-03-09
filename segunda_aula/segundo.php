@@ -1,6 +1,6 @@
 <?php
 
-$status = 'j';
+$status = readline("Qual seu status de relacionamento? ");;
 
 switch($status) {
     case 's': 

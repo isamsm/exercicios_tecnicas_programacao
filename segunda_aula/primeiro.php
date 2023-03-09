@@ -1,6 +1,6 @@
 <?php
 
-$paper = 80;
+$paper = readline("Número de papeis: ");
 $price;
 
 $paper > 100 ? $price = 0.20 : $price = 0.25;
