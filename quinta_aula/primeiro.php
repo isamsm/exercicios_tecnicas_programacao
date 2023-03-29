@@ -7,8 +7,8 @@ for($i = 1; $i <= 10; $i++) {
     array_push($notas, $n);
 }
 
-$soma = array_sum($notas) / count($notas);
+$total = array_sum($notas) / count($notas);
 
-echo "A média das notas dos alunos é de $soma";
+echo "A média das notas dos alunos é de $total";
 
 ?>
